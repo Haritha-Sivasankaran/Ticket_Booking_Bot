@@ -4,9 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 ## Overview
-This project aims to automate the process of booking tickets on various websites for trains and flights. Despite the plethora of ticket booking websites available, finding the best one that fits the user's budget and quality preferences can be challenging. The Ticket Booking Bot, developed using Robotic Process Automation (RPA), automates this process using user inputs to find the best website based on budget and quality and then books the tickets on that site. This bot also reduces the time and effort users spend on finding and booking tickets. The chatbot component uses keywords to understand user requests and initiate the booking process. The project utilizes UiPath Studio and UiPath Orchestrator to achieve automation.
+This project aims to automate booking tickets on various websites for trains and flights. Despite the plethora of ticket booking websites available, finding the best one that fits the user's budget and quality preferences can be challenging. The Ticket Booking Bot, developed using Robotic Process Automation (RPA), automates this process using user inputs to find the best website based on budget and quality and then books the tickets on that site. This bot also reduces users' time and effort to find and book tickets. The chatbot component uses keywords to understand user requests and initiate the booking process. The project utilizes UiPath Studio and UiPath Orchestrator to achieve automation.
 
-![Bot Output](screenshots/output.png)
+![Bot Output](Screenshots/Intro.jpg)
 
 ## Table of Contents
 - [Features](#features)
@@ -43,7 +43,7 @@ This project aims to automate the process of booking tickets on various websites
 
 3. Configure the bot settings in UiPath Orchestrator, including the SMTP settings for email notifications.
 
-4. Run the bot through UiPath Orchestrator.
+4. Run the bot through the UiPath Orchestrator.
 
 ## Usage
 
@@ -67,12 +67,19 @@ This project aims to automate the process of booking tickets on various websites
 
 Here are some sample outputs from the bot:
 
-- **Login Screen:**
-  ![Login Screen](screenshots/login.png)
+- **Choosing Between Options**
+  ![Choosing Between Options](Screenshots/Input1)
+  ![Choosing Between Options2](Screenshots/Input2)
 
-- **Booking Confirmation:**
-  ![Booking Confirmation](screenshots/confirmation.png)
+- **Inputs**
+  ![Inputs1](Screenshots/Input3)
+  ![Inputs2](Screenshots/Input4)
+  ![Inputs3](Screenshots/Input5)
 
+- **Sorted Tickets sent to email**
+  ![Sorted Tickets sent to email1](Screenshots/Input7)
+  ![Sorted Tickets sent to email2](Screenshots/Input8)
+   
 ## Technologies Used
 - **UiPath Studio**: For designing automation workflows
 - **UiPath Orchestrator**: For managing and scheduling bots
