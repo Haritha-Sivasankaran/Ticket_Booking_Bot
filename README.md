@@ -67,25 +67,29 @@ This project aims to automate booking tickets on various websites for trains and
 
 Here are some sample outputs from the bot:
 
-- **Choosing Between Options :**
-      **Choosing Flight**
-  ![Choosing Flight](Screenshots/Input1)
-      **Choosing Train**
-  ![Choosing Train](Screenshots/Input2)
+#### Choosing Between Options :
+ - **Choosing Flight**<br><br>
+  ![Choosing Flight](Screenshots/Input1.jpg)
 
-- **Inputs :**
-      **Source**
-  ![Source](Screenshots/Input3)
-      **Destination**
-  ![Destination](Screenshots/Input4)
-      **Date**
-  ![Date](Screenshots/Input5)
+ - **Choosing Train**<br><br>
+  ![Choosing Train](Screenshots/Input2.jpg)
 
-- **Sorted Tickets sent to email :**
-      **SMTP to User Email**
-  ![SMTP to User Email](Screenshots/Input7)
-      **Details Updated in Excel file**
-  ![Details Updated in Excel file](Screenshots/Input8)
+#### Inputs :
+ - **Source**<br><br>
+  ![Source](Screenshots/Input3.jpg)
+
+ - **Destination**<br><br>
+  ![Destination](Screenshots/Input4.jpg)
+
+ - **Date**<br><br>
+  ![Date](Screenshots/Input5.jpg)
+
+#### Sorted Tickets sent to email :
+ - **SMTP to User Email**<br><br>
+  ![SMTP to User Email](Screenshots/Input7.jpg)
+
+ - **Details Updated in Excel file**<br><br>
+  ![Details Updated in Excel file](Screenshots/Input8.jpg)
    
 ## Technologies Used
 - **UiPath Studio**: For designing automation workflows
